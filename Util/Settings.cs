@@ -17,7 +17,7 @@ namespace SteamDatabaseBackend
         public static bool IsFullRun { get; private set; }
 
         public static void Load()
-        {
+        
             string settingsFile = Path.Combine(Application.Path, "settings.json");
 
             if (!File.Exists(settingsFile))
